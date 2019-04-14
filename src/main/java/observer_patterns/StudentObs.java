@@ -1,4 +1,4 @@
-package Observer_patterns;
+package observer_patterns;
 
 /**
  * 学生观察者

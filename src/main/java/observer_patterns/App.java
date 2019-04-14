@@ -1,4 +1,4 @@
-package Observer_patterns;
+package observer_patterns;
 
 /**
  * Created by yang on 2019/4/11.
