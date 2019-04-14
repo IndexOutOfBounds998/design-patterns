@@ -1,4 +1,4 @@
-package decorator_pattern.shape;
+package decorator_patterns.shape;
 
 /**
  * 实现了 Shape 接口的抽象装饰类。

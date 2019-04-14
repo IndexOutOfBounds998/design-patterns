@@ -1,4 +1,4 @@
-package decorator_pattern.shape;
+package decorator_patterns.shape;
 
 /**
  * 形状 接口

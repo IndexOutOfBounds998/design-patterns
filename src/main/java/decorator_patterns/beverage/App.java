@@ -1,4 +1,4 @@
-package decorator_pattern.beverage;
+package decorator_patterns.beverage;
 
 import com.sun.xml.internal.messaging.saaj.packaging.mime.util.LineInputStream;
 
@@ -32,10 +32,15 @@ public class App {
         // 了解了 基本的装饰者模式 妈妈再也不担心我的学习啦
         try {
             FilterInputStream filterIs = new LineInputStream(new BufferedInputStream(new FileInputStream(new File("D:\\tools\\code.txt"))));
+            StringBuilder sb = new StringBuilder();
+
             int i = 0;
             while ((i = filterIs.read()) != -1) {
-                System.out.print((char) i);
+                sb.append((char) i);
+
             }
+
+            System.out.print(sb.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

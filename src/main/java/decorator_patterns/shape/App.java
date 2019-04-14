@@ -1,4 +1,4 @@
-package decorator_pattern.shape;
+package decorator_patterns.shape;
 
 /**
  * Created by yang on 2019/4/13.

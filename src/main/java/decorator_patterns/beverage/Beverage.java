@@ -1,4 +1,4 @@
-package decorator_pattern.beverage;
+package decorator_patterns.beverage;
 
 /**
  * Created by yang on 2019/4/13.
